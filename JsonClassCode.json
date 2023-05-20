@@ -1,0 +1,28 @@
+﻿/*
+class OCR_Database_Message {
+  constructor(memberID, data, dataType) {
+    this.memberID = memberID;
+    this.data = data;
+    this.dataType = dataType;
+  }
+
+  static SerializeToJson(message) {
+    return JSON.stringify(message, null, 2);
+  }
+
+  static DeserializeFromJson(json) {
+    return JSON.parse(json);
+  }
+}
+
+
+const message = new OCR_Database_Message("123", "sample data", "text");
+const json = OCR_Database_Message.SerializeToJson(message);
+console.log(json);
+
+const deserializedMessage = OCR_Database_Message.DeserializeFromJson(json);
+console.log(deserializedMessage.memberID);
+console.log(deserializedMessage.data);
+console.log(deserializedMessage.dataType);
+
+*/
